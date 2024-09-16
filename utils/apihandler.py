@@ -13,7 +13,7 @@ class ApiHandler:
             "contents": base64.b64encode(open(fileName, 'rb').read()).decode(),
             "filename": fileName
         }},
-            "pages": [2, 3, 4, 5, 6]
+            "pages": [2, 3, 4, 5, 6] #will set to pass on command line
         }
         headers = {
             "accept": "application/json",
