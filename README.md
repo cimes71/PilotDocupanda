@@ -4,7 +4,7 @@ For more information on Docupanda visit docupanda.io.
 
 The code aims to take medical records (PDFs) and upload them.  Right now I'm passing them in the code but will be making updates to read them from a directory.
 
-Docupanda will likely convert the PDFs to images and then use OCR(maybe something like Tesseract) then applies some labeling or classification.  
+Docupanda is likely converting the PDFs to images and then use OCR(maybe something like Tesseract) then applies some labeling or classification.  
 
 There is also the ability to apply a basic schema to the document, and then get a standardized version (without all of bounding box information). 
 
